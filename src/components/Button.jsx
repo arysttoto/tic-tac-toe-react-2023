@@ -3,12 +3,12 @@ function Button(props) {
 
   return (
     <button
-      className="border border-slate-800"
-      onClick={props.handleChangeUser}
-    >
-      {props.children}
+      className="border border-black"  
+      onClick={props.handleChangeUser}   
+    >  
+      {props.children} 
     </button>
   );
-}
+} 
 
-export default Button;
+export default Button;  
