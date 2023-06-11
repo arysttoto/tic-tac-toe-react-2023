@@ -12,7 +12,7 @@ export default function Grid(props) {
           </button>
         </div>
       ))}
-      <div className="winner">Winner is: {props.winner}</div>
+      <div className="winner dark:bg-white">Winner is: {props.winner}</div>
     </div>
   );
 }
